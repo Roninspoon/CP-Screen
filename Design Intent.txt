@@ -1,0 +1,6 @@
+Design Goal
+  The goal of this project is to build a lightweight screen saver in circuitpython for use on an rp2040 macropad.
+Design Intent
+  Four lines will scan across the screen, varying their stopping position randomly.
+  The rectangle formed at the intersection of the four lines will blink red a random number of times.
+  The display will be blanked, and the lines will be redrawn, until the process is interrupted.
